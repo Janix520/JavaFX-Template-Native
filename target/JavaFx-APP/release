@@ -1,0 +1,2 @@
+JAVA_VERSION="17.0.7"
+MODULES="java.base java.logging java.xml java.datatransfer java.prefs java.desktop javafx.base jdk.unsupported javafx.graphics javafx.controls com.jfoenix commons.math java.security.sasl java.naming jdk.sctp io.netty.all java.scripting javafx.fxml org.apache.commons.lang3 com.rocoplayer"
