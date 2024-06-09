@@ -71,6 +71,72 @@
         </dependency>
         
         
+        <!-- 全量引入 ，包含javacv、ffmpeg、opencv等 -->
+		<!-- <dependency> <groupId>org.bytedeco</groupId> <artifactId>javacv-platform</artifactId> 
+			<version>1.5.6</version> </dependency> -->
+
+
+        <!-- 媒体只用到以下两个，javacv、ffmpeg -->
+		<dependency>
+			<groupId>org.bytedeco</groupId>
+			<artifactId>javacv</artifactId>
+			<version>1.5.10</version>
+		</dependency>
+        
+        <!-- ffmpeg全平台引入 -->
+		<!-- <dependency>
+			<groupId>org.bytedeco</groupId>
+			<artifactId>ffmpeg-platform</artifactId>
+			<version>4.4-1.5.6</version>
+		</dependency> -->
+		
+		<dependency>
+			<groupId>org.bytedeco</groupId>
+			<artifactId>ffmpeg</artifactId>
+			<version>6.1.1-1.5.10</version>
+			<classifier>windows-x86_64</classifier>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.bytedeco</groupId>
+		    <artifactId>openblas</artifactId>
+		    <version>0.3.26-1.5.10</version>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.bytedeco</groupId>
+		    <artifactId>openblas</artifactId>
+		    <version>0.3.26-1.5.10</version>
+		    <classifier>windows-x86_64</classifier>
+		</dependency>
+		
+		<dependency>
+		    <groupId>org.bytedeco</groupId>
+		    <artifactId>opencv</artifactId>
+		    <version>4.9.0-1.5.10</version>
+		</dependency>
+
+		<dependency>
+		    <groupId>org.bytedeco</groupId>
+		    <artifactId>opencv</artifactId>
+		    <version>4.9.0-1.5.10</version>
+		    <classifier>windows-x86_64</classifier>
+		</dependency>
+		
+		<!--<dependency>
+			<groupId>org.bytedeco</groupId>
+			<artifactId>ffmpeg</artifactId>
+			<version>6.1.1-1.5.10</version>
+			<classifier>linux-x86_64</classifier>
+		</dependency>-->
+		
+		<!--<dependency>
+			<groupId>org.bytedeco</groupId>
+			<artifactId>ffmpeg</artifactId>
+			<version>6.1.1-1.5.10</version>
+			<classifier>macosx-x86_64</classifier>
+		</dependency>-->
+        
     </dependencies>
 
     <build>

@@ -38,6 +38,9 @@ public class MainCtrl implements Initializable {
 		btnChooseFile.setOnAction((event) -> {
 			onchooseFile(event);
 		});
+		
+		
+	    
 	}
 
 	/**
