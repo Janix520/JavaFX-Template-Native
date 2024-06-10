@@ -55,6 +55,12 @@ stage.height=440
 stage.resizable=true
 ```
 
+# 其他版本分支
+```
+需要引入javacv版本的请查看javacv分支
+```
+
+
 # 项目截图
 ![截图](./screenshot/01.png)
 
